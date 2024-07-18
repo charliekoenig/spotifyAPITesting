@@ -1,0 +1,74 @@
+body {
+    display: flex;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.apiCall {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border: 1px solid black;
+
+    box-sizing: border-box;
+}
+
+.buttonContainer, .endpoint, .description {
+    display: flex;
+    box-sizing: border-box;
+    padding: 4px;
+
+    align-items: center;
+}
+
+.endpoint, .description {
+    width: 41%;
+}
+
+.buttonContainer {
+    width: 18%;
+    justify-content: flex-end;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: rgb(226, 226, 226);
+
+    width: 100px;
+    padding: 2px;
+}
+
+.button:hover {
+    scale:1.05;
+    cursor: pointer;
+}
+
+#resultContainer {
+    margin-left: 2vw;
+    width: 45vw;
+    min-height: 50vh;
+}
+
+#results {
+    border: 1px solid black;
+    height: 10px;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}

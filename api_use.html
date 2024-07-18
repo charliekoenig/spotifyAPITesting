@@ -9,8 +9,42 @@
 </head>
 
 <body>
-    <h1>API Calls:</h1>
+    <div id="container">
+        <div id="header">
+            <h2>API Calls:</h2>
+            <div id="accessToken">Token: </div>
+            <div id="refreshAccessToken" class="button">Refresh Tokens</div>
+        </div>
+        <div class="apiCall">
+            <div class="endpoint">https://api.spotify.com/v1/me/player</div>
+            <div class="description">Returns information about current playback</div>
+            <div class="buttonContainer">
+                <div class="button">Call Endpoint</div>
+            </div>
+        </div>
 
+        <!-- <div class="apiCall">
+            <div class="endpoint"></div>
+            <div class="buttonContainer">
+                <div class="button">Call Endpoint</div>
+            </div>
+            <div class="description"></div>
+        </div>
+
+        <div class="apiCall">
+            <div class="endpoint"></div>
+            <div class="buttonContainer">
+                <div class="button">Call Endpoint</div>
+            </div>            
+            <div class="description"></div>
+        </div> -->
+    </div>
+
+    <div id="resultContainer">
+        <h2>Results:</h2>
+        <div id="results"></div>
+
+    </div>
 
 
     <script src="script.js"></script>
